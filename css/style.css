@@ -497,7 +497,9 @@ body.open .navigation {
   font-size: 16px;
   letter-spacing: 1.3px;
 }
-
+.footer__menu-item {
+  color: #fff;
+}
 .footer-logo {
   display: flex;
   flex-direction: column;
