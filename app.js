@@ -18,6 +18,7 @@ calculat[0].addEventListener('click', function () {
     top: calculate.offsetTop,  // это координат где должен быть экран
     behavior: 'smooth'  //Это анимация
   })
+    document.querySelector('body').classList.remove()('open')
 })
 calculat[1].addEventListener('click', function () {
   window.scrollTo({
@@ -30,18 +31,21 @@ us[0].addEventListener('click', function () {
     top: advantages.offsetTop,  // это координат где должен быть экран
     behavior: 'smooth'  //Это анимация
   })
+    document.querySelector('body').classList.remove()('open')
 })
 us[1].addEventListener('click', function () {
   window.scrollTo({
     top: advantages.offsetTop,  // это координат где должен быть экран
     behavior: 'smooth'  //Это анимация
   })
+  
 })
 guarantees[0].addEventListener('click', function () {
   window.scrollTo({
     top: quality.offsetTop,  // это координат где должен быть экран
     behavior: 'smooth'  //Это анимация
   })
+    document.querySelector('body').classList.remove()('open')
 })
 guarantees[1].addEventListener('click', function () {
   window.scrollTo({
@@ -54,6 +58,7 @@ reviewjs[0].addEventListener('click', function () {
     top: review.offsetTop,  // это координат где должен быть экран
     behavior: 'smooth'  //Это анимация
   })
+    document.querySelector('body').classList.remove()('open')
 })
 reviewjs[1].addEventListener('click', function () {
   window.scrollTo({
