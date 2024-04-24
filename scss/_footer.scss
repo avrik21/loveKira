@@ -1,0 +1,81 @@
+@import "_vars.scss";
+
+
+.footer-logo {
+  background-color: #7267d7;
+}
+
+.footer-inner__logo {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &-street {
+    display: flex;
+    font-weight: $bold;
+    font-size: 16px;
+    gap: 20px;
+    & a {
+      color: #fff;
+    }
+  }
+  &-connection {
+    display: flex;
+    gap: 30px;
+    &-phone {
+      display: flex;
+      font-weight: $bold;
+      font-size: 16px;
+      gap: 20px;
+      & a {
+        color: #fff;
+      }
+    }
+    &-email {
+      display: flex;
+      font-weight: $bold;
+      font-size: 16px;
+      gap: 20px;  
+      & a {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.footer-nav {
+  background-color: #3D348B;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.footer-nav__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & p {
+    margin: 80px 0 30px 0;
+    color: #6e68a3;
+  }
+  &-menu {
+    padding-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    &-list {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      & h3 {
+        font-size: 18px;
+        font-weight: $bold;
+        margin-bottom: 30px;
+      }
+      & li {
+        & a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
