@@ -1,0 +1,17 @@
+@import "_vars.scss";
+
+.breadcrumbs {
+  background-color: rgb(241, 241, 241);
+}
+
+.breadcrumbs-inner {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 25px 0;
+  & p {
+    text-transform: uppercase;
+    font-weight: $bold;
+    font-size: 13px;
+  }
+}
