@@ -1,0 +1,26 @@
+@import "_vars";
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: $regular;
+  line-height: 22.4px;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+@import "_header.scss";
+@import "_main.scss";
+@import "_footer.scss";
+
