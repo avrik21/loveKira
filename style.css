@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.container {
+  max-width: 400px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quality {
+  margin-top: 80px;
+}
+
+#image {
+  width: 250px;
+}
+
+.img {
+  display: block;
+}
+.container.active .img {
+  display: block;
+}
+
+video {
+  display: none;
+  width: 300px;
+}
+.container.active video {
+  display: block;
+}
+h1 {
+  display: none;
+  width: 300px;
+}
+.container.active h1 {
+  display: block;
+}
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  opacity: .2;
+}
+
+h1 {
+  color: plum;
+  font-size: 25px;
+  text-align: center;
+}
