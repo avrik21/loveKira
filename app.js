@@ -4,7 +4,11 @@ let video = document.querySelector('video')
 
 console.log(img)
 
-
+var first = true;
+document.onclick = function(){
+  if(first == true) document.querySelector('audio').play()
+  first = false;
+}
 
 quality.addEventListener('change', function () {
   console.log(quality.value)
